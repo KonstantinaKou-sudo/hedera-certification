@@ -1,0 +1,26 @@
+{
+    "name": "token_service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "@hashgraph/sdk": "^2.16.6",
+      "dotenv": "^16.0.1"
+    },
+    "scripts": {
+      "start:createfungible": "cd ..;node Token_Service/scripts/taskFungible/createToken.js",
+      "start:queryfungible": "cd ..;node Token_Service/scripts/taskFungible/queryBalance.js",
+      "start:updatefungible": "cd ..;node Token_Service/scripts/taskFungible/updateToken.js",
+      "start:transferfungible": "cd ..;node Token_Service/scripts/taskFungible/transferToken.js",
+      "start:burnfungible": "cd ..;node Token_Service/scripts/taskFungible/burnToken.js",
+      "start:increasefungiblesupply": "cd ..;node Token_Service/scripts/taskFungible/increaseTokenSupply.js",
+      "start:createNFT": "cd ..;node Token_Service/scripts/taskNonFungible/createNFT.js",
+      "start:mintAndTransferNFT": "cd ..;node Token_Service/scripts/taskNonFungible/mintAndTransferNFT.js",
+      "start:getNFTInfo": "cd ..;node Token_Service/scripts/taskNonFungible/getNFTInfo.js",
+      "start:transferAndBurnNFT": "cd ..;node Token_Service/scripts/taskNonFungible/transferAndBurnNFT.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
